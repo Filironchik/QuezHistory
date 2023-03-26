@@ -1,0 +1,12 @@
+.wrapper__catalog {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  font-size: 120px;
+  color: #152E2E;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 80PX;
+}
+
+.logo {
+  grid-column-start: 1;
+  grid-row-start: 5;
+  grid-row-end: 8;
+  margin-left: 150px;
+}
+
+.buttons {
+  grid-column-start: 3;
+  grid-row-start: 5;
+  grid-row-end: 8;
+
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+}
+
+.button {
+  width: 560px;
+  height: 110px;
+  box-sizing: border-box;
+  border: 10px solid #152E2E;
+  border-radius: 22px;
+  background-color: #D3E3E4;
+
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #152E2E;
+
+  margin-right: 230px;
+
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #152E2E;
+  color: #D3E3E4;
+  transition: 0.3s;
+}
+
+/* #btn1:active {
+  width: 565px;
+  height: 115px;
+}
+
+#btn2:active {
+  width: 563px;
+  height: 115px;
+} */

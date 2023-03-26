@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.wrapperCard {
+  box-sizing: border-box;
+
+  height: 175px;
+  width: 575px;
+
+  padding-top: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 180px);
+  grid-auto-rows: 40px;
+
+  border-radius: 20px;
+
+  background-color: azure;
+}
+
+.img__card {
+  grid-column-start: 1;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  margin-left: 30px;
+  height: 130px;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.title__card {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description__card {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+
+}
+
+.tag__card {
+  grid-column-start: 2;
+  grid-row-start: 3;
+
+  margin-top: 25px;
+
+  height: 25px;
+  width: 50px;
+
+  background-color: aliceblue;
+
+  border-radius: 10px;
+
+  padding-left: 15px;
+
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.button__card {
+  grid-column-start: 3;
+
+  grid-row-start: 3;
+
+  margin-top: 20px;
+
+  height: 30px;
+
+  border-radius: 5px;
+  border: 2px solid #152E2E;
+
+  background-color: transparent;
+
+  font-weight: bold;
+
+  font-family: 'Ubuntu', sans-serif;
+
+  transition: 0.2s;
+}
+
+.button__card:hover {
+  background-color: #152E2E;
+  color: aliceblue;
+
+  transition: 0.2s;
+}
