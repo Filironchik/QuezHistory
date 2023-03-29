@@ -7,6 +7,7 @@
   width: 575px;
 
   padding-top: 20px;
+  padding-left: 30px;
 
   display: grid;
   grid-template-columns: repeat(4, 180px);
@@ -17,22 +18,15 @@
   background-color: azure;
 }
 
-.img__card {
-  grid-column-start: 1;
 
-  grid-row-start: 1;
-  grid-row-end: 3;
-
-  margin-left: 30px;
-  height: 130px;
-}
 
 p {
   font-family: 'Ubuntu', sans-serif;
 }
 
 .title__card {
-  grid-column-start: 2;
+
+  grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
 
@@ -42,22 +36,24 @@ p {
 }
 
 .description__card {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
 
 }
 
 .tag__card {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-row-start: 3;
 
   margin-top: 25px;
 
   height: 25px;
-  width: 50px;
+  width: 85px;
+  padding-top: 4px;
 
-  background-color: aliceblue;
+  color: azure;
+  background-color: rgb(97, 146, 188);
 
   border-radius: 10px;
 
@@ -67,6 +63,9 @@ p {
 }
 
 .button__card {
+  padding-top: 5px;
+  padding-left: 40px;
+
   grid-column-start: 3;
 
   grid-row-start: 3;
@@ -76,19 +75,24 @@ p {
   height: 30px;
 
   border-radius: 5px;
-  border: 2px solid #152E2E;
+  border: 3px solid #0b042f;
 
   background-color: transparent;
+
+  color: #0b042f;
+
+  text-decoration: none;
 
   font-weight: bold;
 
   font-family: 'Ubuntu', sans-serif;
 
   transition: 0.2s;
+  margin-right: 30px;
 }
 
 .button__card:hover {
-  background-color: #152E2E;
+  background-color: #0b042f;
   color: aliceblue;
 
   transition: 0.2s;
